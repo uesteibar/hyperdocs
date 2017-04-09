@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "prettier",
+    "react"
+  ],
+  "extends": [
+    "standard",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "comma-style": ["error", "last"],
+    "no-extra-semi": "error",
+    "object-curly-spacing": ["error", "always", { "arraysInObjects": true, "objectsInObjects": true }],
+    "semi": ["error", "never"],
+    "react/jsx-curly-spacing": ["error", "always", { "spacing": { "objectLiterals": "never" } }],
+    "react/jsx-uses-vars": 1
+  }
+}

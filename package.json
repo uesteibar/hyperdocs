@@ -1,0 +1,59 @@
+{
+  "name": "hyperdocs",
+  "version": "1.0.0",
+  "description": "Get documentation right in your hyper terminal.",
+  "main": "lib/index.js",
+  "scripts": {
+    "prettier": "prettier --single-quote --write --jsx-bracket-same-line index.js 'src/**/*.js'",
+    "lint": "npm run prettier && eslint 'src/**/*.js' --fix",
+    "lint:staged": "lint-staged",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "rm -rf lib/* && babel src -d lib",
+    "prerelease": "npm run build",
+    "release": "standard-version && git push --follow-tags origin master; npm publish"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --single-quote --write",
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "pre-commit": "lint:staged",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "author": "Unai Esteibar <uesteibar@gmail.com>",
+  "license": "ISC",
+  "keywords": ["hyper", "hyper.app"],
+  "dependencies": {
+    "hyperterm-window": "^1.0.1",
+    "jss": "^6.5.0",
+    "react-jss": "^5.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.0",
+    "babel-eslint": "7.2.1",
+    "babel-jest": "19.0.0",
+    "babel-preset-env": "1.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "6.23.0",
+    "babel-preset-stage-1": "6.22.0",
+    "eslint": "3.18.0",
+    "eslint-config-prettier": "1.5.0",
+    "eslint-config-standard": "7.1.0",
+    "eslint-plugin-prettier": "2.0.1",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-react": "6.10.3",
+    "eslint-plugin-standard": "2.1.1",
+    "lint-staged": "3.4.0",
+    "pre-commit": "1.2.2",
+    "prettier": "0.22.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "standard-version": "4.0.0"
+  }
+}

@@ -8,6 +8,7 @@ Get docs right in your hyper terminal.
 ![demo](https://gifyu.com/images/hyperdocs.gif)
 
 - [Install](#install)
+- [Usage](#usage)
 - [Running Locally](#running-locally)
 - [Contributing](#contributing)
 - [Helpers/Tools](#helperstools)
@@ -26,6 +27,17 @@ plugins: ['hyperdocs']
 ```
 
 Enjoy =)
+
+## Usage
+
+```bash
+hyperdocs {language or framework}
+```
+
+for example:
+```bash
+hyperdocs react
+```
 
 ## Running locally
 

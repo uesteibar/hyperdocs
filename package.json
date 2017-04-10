@@ -1,6 +1,6 @@
 {
   "name": "hyperdocs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get documentation right in your hyper terminal.",
   "main": "lib/index.js",
   "scripts": {

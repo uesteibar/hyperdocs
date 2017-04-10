@@ -8,7 +8,6 @@ const types = {
 exports.reduceUI = (state, action) => {
   switch (action.type) {
     case types.TOGGLE:
-      console.log({ hyperdocs: state.hyperdocs })
       const hyperdocs = state.hyperdocs === undefined
         ? { show: true }
         : !state.hyperdocs.show

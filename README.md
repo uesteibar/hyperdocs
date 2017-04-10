@@ -2,6 +2,8 @@
 
 [![code style](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg?style=flat-square)][code style]
 [![Standard Version](https://img.shields.io/badge/release-standard%20version-brightgreen.svg)][standard-version]
+[![npm version](https://badge.fury.io/js/hyperdocs.svg)](https://badge.fury.io/js/hyperdocs)
+[![npm](https://img.shields.io/npm/dm/hyperdocs.svg?label=DL)]()
 
 Get docs right in your hyper terminal.
 

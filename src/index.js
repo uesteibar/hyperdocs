@@ -8,22 +8,22 @@ const types = {
 exports.reduceUI = (state, action) => {
   switch (action.type) {
     case types.TOGGLE:
-      const show = state.showHyperhelp === undefined
-        ? true
-        : !state.showHyperhelp
-      return {
-        ...state,
-        showHyperhelp: show,
-        hyperhelpCommand: action.command,
-      }
+      console.log({ hyperdocs: state.hyperdocs })
+      const hyperdocs = state.hyperdocs === undefined
+        ? { show: true }
+        : !state.hyperdocs.show
+      return state.set('hyperdocs', {
+        show: hyperdocs.show,
+        command: action.command,
+      })
   }
   return state
 }
 
 exports.mapTermsState = (state, map) => {
   return Object.assign(map, {
-    showHyperhelp: state.ui.showHyperhelp,
-    hyperhelpCommand: state.ui.hyperhelpCommand,
+    showHyperhelp: state.ui.hyperdocs && state.ui.hyperdocs.show,
+    hyperhelpCommand: state.ui.hyperdocs && state.ui.hyperdocs.command,
   })
 }
 

@@ -8,14 +8,14 @@ const types = {
 exports.reduceUI = (state, action) => {
   switch (action.type) {
     case types.TOGGLE:
-      const hyperdocs = state.hyperdocs === undefined ||
-        state.hyperdocs.show === undefined
-        ? { show: true }
-        : !state.hyperdocs.show
-      return state.set('hyperdocs', {
-        show: hyperdocs.show,
-        command: action.command,
-      })
+      const command = action.command &&
+        action.command.replace(/[^0-9a-z]/gi, '')
+      const hyperdocs = {
+        show: !!command,
+        command,
+      }
+
+      return state.set('hyperdocs', hyperdocs)
   }
   return state
 }

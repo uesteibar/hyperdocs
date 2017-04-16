@@ -41,6 +41,8 @@ for example:
 hyperdocs react
 ```
 
+If the documentation is found, it will open it right away. If it's not, it will open a [duckduckgo](https://duckduckgo.com/) search instead.
+
 ## Running locally
 
 Go to your hyper plugins folder

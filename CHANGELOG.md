@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/uesteibar/hyperdocs/compare/v1.0.7...v1.1.0) (2017-04-16)
+
+
+### Features
+
+* **window:** Add fallback to duckduckgo search ([d24a7e4](https://github.com/uesteibar/hyperdocs/commit/d24a7e4))
+
+
+
 <a name="1.0.7"></a>
 ## [1.0.7](https://github.com/uesteibar/hyperdocs/compare/v1.0.6...v1.0.7) (2017-04-10)
 

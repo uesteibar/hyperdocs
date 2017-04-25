@@ -48,7 +48,7 @@ exports.middleware = store =>
 
         if (
           /(hyperdocs: command not found)|(command not found: hyperdocs)/.test(
-            data
+            data,
           )
         ) {
           const command = /(?<=hyperdocs).*/.exec(data)[0].split(']')[0].trim()
@@ -68,7 +68,7 @@ exports.decorateTerm = (Term, { React, notify }) => {
   } catch (e) {
     var Module = require('module')
     var originalRequire = Module.prototype.require
-    Module.prototype.require = function(path) {
+    Module.prototype.require = function (path) {
       if (path === 'react') {
         return React
       }
@@ -77,11 +77,11 @@ exports.decorateTerm = (Term, { React, notify }) => {
   }
 
   return class extends React.Component {
-    render() {
+    render () {
       const children = [
         React.createElement(
           Term,
-          Object.assign({}, this.props, { key: 'term' })
+          Object.assign({}, this.props, { key: 'term' }),
         ),
       ]
 
@@ -100,7 +100,7 @@ exports.decorateTerm = (Term, { React, notify }) => {
         const hyperwindow = React.createElement(
           HyperWindow,
           windowProps,
-          myComponent
+          myComponent,
         )
         children.push(hyperwindow)
       }
@@ -108,7 +108,7 @@ exports.decorateTerm = (Term, { React, notify }) => {
       return React.createElement(
         'div',
         { style: { width: '100%', height: '100%', position: 'relative' } },
-        children
+        children,
       )
     }
   }

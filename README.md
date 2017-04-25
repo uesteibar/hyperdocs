@@ -1,6 +1,5 @@
 # hyperdocs
 
-[![code style](https://img.shields.io/badge/code%20style-prettier-ff69b4.svg?style=flat-square)]()
 [![Standard Version](https://img.shields.io/badge/release-standard%20version-brightgreen.svg)]()
 [![npm version](https://badge.fury.io/js/hyperdocs.svg)](https://badge.fury.io/js/hyperdocs)
 [![Code Climate](https://codeclimate.com/github/uesteibar/hyperdocs/badges/gpa.svg)](https://codeclimate.com/github/uesteibar/hyperdocs)
@@ -93,7 +92,6 @@ So this is a step by step guide to contributing to the project (mostly extracted
 
 - [Changelog](https://github.com/uesteibar/hyperdocs/blob/master/CHANGELOG.md)
 - [Code of conduct](https://github.com/uesteibar/hyperdocs/blob/master/CHANGELOG.md)
-- [Code style](https://npm.im/prettier)
 - [commitizen](https://github.com/commitizen/cz-cli): A cli that will prompt the author to fill out any required commit fields at commit time. For this project we would use the [cz-conventional-changelog](https://github.com/conventional-changelog/conventional-changelog) adapter.
 - [conventional-changelog-standard](https://github.com/bcoe/conventional-changelog-standard/blob/master/convention.md)
 - [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)

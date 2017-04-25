@@ -1,12 +1,10 @@
 {
   "parser": "babel-eslint",
   "plugins": [
-    "prettier",
     "react"
   ],
   "extends": [
-    "standard",
-    "prettier"
+    "standard"
   ],
   "env": {
     "browser": true,

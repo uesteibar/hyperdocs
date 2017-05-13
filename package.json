@@ -30,6 +30,10 @@
     "hyper",
     "hyper.app"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uesteibar/hyperdocs.git"
+  },
   "dependencies": {
     "hyperterm-window": "^1.0.1",
     "jss": "^6.5.0",

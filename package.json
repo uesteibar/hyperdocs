@@ -26,6 +26,10 @@
   },
   "author": "Unai Esteibar <uesteibar@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uesteibar/hyperdocs.git"
+  },
   "keywords": [
     "hyper",
     "hyper.app"

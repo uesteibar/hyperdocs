@@ -51,8 +51,10 @@ exports.middleware = store =>
             data,
           )
         ) {
-          const command = /(?<=hyperdocs).*/.exec(data)[0].split(']')[0].trim()
-          store.dispatch({ type: types.TOGGLE, command })
+          const match = /hyperdocs ([^"]*)zsh/.exec(data)
+          if (match) {
+            store.dispatch({ type: types.TOGGLE, command: match[1].trim() })
+          }
         } else {
           next(action)
         }

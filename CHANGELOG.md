@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.4"></a>
+## [1.1.4](https://github.com/uesteibar/hyperdocs/compare/v1.1.3...v1.1.4) (2018-02-13)
+
+
+### Bug Fixes
+
+* **regexp:** Use js compatible regexp instead of positive lookbehind ([d90f435](https://github.com/uesteibar/hyperdocs/commit/d90f435)), closes [#11](https://github.com/uesteibar/hyperdocs/issues/11)
+
+
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/uesteibar/hyperdocs/compare/v1.1.2...v1.1.3) (2017-05-13)
 

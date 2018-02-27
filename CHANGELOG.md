@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.5"></a>
+## [1.1.5](https://github.com/uesteibar/hyperdocs/compare/v1.1.4...v1.1.5) (2018-02-27)
+
+
+### Bug Fixes
+
+* **deps:** Update react-jss ([a7d2f68](https://github.com/uesteibar/hyperdocs/commit/a7d2f68)), closes [#12](https://github.com/uesteibar/hyperdocs/issues/12)
+
+
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/uesteibar/hyperdocs/compare/v1.1.3...v1.1.4) (2018-02-13)
 

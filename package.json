@@ -39,7 +39,7 @@
     "jss": "^6.5.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-jss": "^5.4.1"
+    "react-jss": "^8.2.1"
   },
   "devDependencies": {
     "babel-cli": "6.24.0",

@@ -13,6 +13,7 @@ const urls = {
   django: 'https://docs.djangoproject.com/en/1.11/',
   elixir: 'http://elixir-lang.org/docs.html',
   elm: 'http://elm-lang.org/docs',
+  ember: 'https://emberjs.com/api/ember/release',
   express: 'https://expressjs.com/en/api.html',
   git: 'https://git-scm.com/docs',
   go: 'https://golang.org/doc/',

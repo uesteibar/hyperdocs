@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/uesteibar/hyperdocs/compare/v1.1.5...v1.2.0) (2019-01-11)
+
+
+### Features
+
+* **docs:** Add ember.js ([7163811](https://github.com/uesteibar/hyperdocs/commit/7163811))
+
+
+
 <a name="1.1.5"></a>
 ## [1.1.5](https://github.com/uesteibar/hyperdocs/compare/v1.1.4...v1.1.5) (2018-02-27)
 
